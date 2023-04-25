@@ -1,0 +1,15 @@
+cabal-version: 2.4
+name:          vocab3
+version:       0.1.0.0
+author:        akthrms
+maintainer:    akt.hrms@gmail.com
+
+executable vocab3
+  main-is:          Main.hs
+  build-depends:
+    , base  ^>=4.16.4.0
+    , fmt
+    , text
+
+  hs-source-dirs:   app
+  default-language: Haskell2010
